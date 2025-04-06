@@ -1,9 +1,10 @@
 import React from 'react'
 import ProductPage from './components/ProductPage';
 import productsData from './products.json';
+import Product from './types';
 
 const App = () => {
-    const product = productsData.products[0]; // Get the first product
+    const product = productsData.products[0] as Product; // Get the first product
 
     return (
         <div className="App">
