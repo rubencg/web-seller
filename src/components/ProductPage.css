@@ -44,6 +44,20 @@
   margin-bottom: 2rem;
 }
 
+.description-container {
+  margin: 1.5rem 0;
+}
+
+.description-container p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+  color: #484848;
+}
+
+.description-container p:last-child {
+  margin-bottom: 0;
+}
+
 .add-to-cart-button {
   background-color: #0058a3;
   color: white;

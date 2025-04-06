@@ -2,21 +2,26 @@
     "products": [
       {
         "id": "1",
-        "name": "Couch",
+        "name": "IKEA Couch: LYCKSELE LÖVÅS",
         "price": 200,
-        "description": "This is a product description.",
+        "originalPrice": 429,
+        "originalProductUrl": "https://www.ikea.com/ca/en/p/lycksele-loevas-sofabed-knisa-light-gray-s69387037",
+        "description": "Sofabed, Knisa light gray\n It has a few stains on the cover as seen in the pictures",
+        "dateBought": "2024-21-07",
         "images": [
-          "/images/couch.png",
-          "/images/couch-2.png"
+          "/images/couch-0.png",
+          "/images/couch-1.png",
+          "/images/couch-2.png",
+          "/images/couch-3.png"
         ]
       },
       {
         "id": "2",
-        "name": "Click & Grow",
+        "name": "Desk Chair",
         "price": 40,
         "description": "This is a product description.",
         "images": [
-          "/images/click-grow-1.png"
+          "/images/IMG_8170.HEIC"
         ]
       },
       {

@@ -11,6 +11,15 @@ import 'swiper/css/pagination';
 const ProductPage = ({product}: {product: Product}) => {
   const [expandedImage, setExpandedImage] = useState<string | null>(null);
 
+  // Function to split description into paragraphs
+  const renderDescription = (description: string) => {
+    return description.split('\n').map((paragraph, index) => (
+      <p key={index} className="product-description">
+        {paragraph.trim()}
+      </p>
+    ));
+  };
+
   return (
     <div className="product-page">
       {expandedImage && (
@@ -42,7 +51,9 @@ const ProductPage = ({product}: {product: Product}) => {
         <div className="product-details-section">
           <h1 className="product-name">{product.name}</h1>
           <div className="product-price">${product.price}</div>
-          <p className="product-description">{product.description}</p>
+          <div className="description-container">
+            {renderDescription(product.description)}
+          </div>
         </div>
       </div>
     </div>
