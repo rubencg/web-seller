@@ -3,7 +3,7 @@
       {
         "id": "1",
         "name": "IKEA Couch: LYCKSELE LÖVÅS",
-        "price": 200,
+        "price": 299,
         "originalPrice": 429,
         "originalProductUrl": "https://www.ikea.com/ca/en/p/lycksele-loevas-sofabed-knisa-light-gray-s69387037",
         "description": "Sofabed, Knisa light gray\n It has a few stains on the cover as seen in the pictures",
@@ -29,7 +29,7 @@
       },
       {
         "id": "2",
-        "name": "IKEA Plant Stabd: SATSUMAS",
+        "name": "IKEA Plant Stand: SATSUMAS",
         "price": 30,
         "originalPrice": 60,
         "originalProductUrl": "https://www.ikea.com/ca/en/p/satsumas-plant-stand-bamboo-white-90258156/",
@@ -138,10 +138,10 @@
       {
         "id": "6",
         "name": "IKEA Standing desk: TROTTEN",
-        "price": 100,
+        "price": 150,
         "originalPrice": 249,
         "originalProductUrl": "https://www.ikea.com/ca/en/p/trotten-desk-sit-stand-white-s99429578/",
-        "description": "Desk sit/stand, white, 120x70 cm (47 1/4x27 1/2 \")",
+        "description": "Desk sit/stand, white, 120x70 cm (47 1/4x27 1/2 \")\nAvailable from May 23rd",
         "dateBought": "2023-06-25",
         "assets": [
           {
