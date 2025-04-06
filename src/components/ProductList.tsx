@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Product from '../types';
+import {Product} from '../types';
 import './ProductList.css';
 
 interface ProductListProps {
@@ -8,6 +8,7 @@ interface ProductListProps {
 }
 
 const ProductList = ({ products }: ProductListProps) => {
+  
   return (
     <div className="product-list-container">
       <h1 className="product-list-title">We are selling!</h1>
@@ -15,7 +16,7 @@ const ProductList = ({ products }: ProductListProps) => {
         {products.map((product) => (
           <Link to={`/product/${product.id}`} key={product.id} className="product-card">
             <div className="product-card-image">
-              <img src={product.images[0]} alt={product.name} />
+              <img src={product.assets.filter(c => c.type == "image")[0].url} alt={product.name} />
             </div>
             <div className="product-card-info">
               <h2 className="product-card-name">{product.name}</h2>

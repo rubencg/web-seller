@@ -3,11 +3,11 @@ import { BrowserRouter as Router, Routes, Route, useParams } from 'react-router-
 import ProductList from './components/ProductList';
 import ProductPage from './components/ProductPage';
 import productsData from './products.json';
-import Product from './types';
+import {Product} from './types';
 
 const ProductPageWrapper = () => {
   const { id } = useParams();
-  const product = productsData.products.find(p => p.id === id);
+  const product = productsData.products.find(p => p.id === id) as Product;
   
   if (!product) {
     return <div>Product not found</div>;
@@ -20,7 +20,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<ProductList products={productsData.products} />} />
+        <Route path="/" element={<ProductList products={productsData.products as Product[]} />} />
         <Route path="/product/:id" element={<ProductPageWrapper />} />
       </Routes>
     </Router>

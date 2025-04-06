@@ -8,12 +8,6 @@
         "originalProductUrl": "https://www.ikea.com/ca/en/p/lycksele-loevas-sofabed-knisa-light-gray-s69387037",
         "description": "Sofabed, Knisa light gray\n It has a few stains on the cover as seen in the pictures",
         "dateBought": "2024-21-07",
-        "images": [
-          "/images/couch-0.png",
-          "/images/couch-1.png",
-          "/images/couch-2.png",
-          "/images/couch-3.png"
-        ],
         "assets": [
           {
             "type": "image",
@@ -35,105 +29,6 @@
             "type": "video",
             "url": "/videos/chair-1.mp4"
           }
-        ]
-      },
-      {
-        "id": "2",
-        "name": "Desk Chair",
-        "price": 40,
-        "description": "This is a product description.",
-        "images": [
-          "/images/IMG_8170.HEIC"
-        ]
-      },
-      {
-        "id": "3",
-        "name": "Click & Grow",
-        "price": 40,
-        "description": "This is a product description.",
-        "images": [
-          "/images/click-grow-1.png"
-        ]
-      },
-      {
-        "id": "4",
-        "name": "Click & Grow",
-        "price": 40,
-        "description": "This is a product description.",
-        "images": [
-          "/images/click-grow-1.png"
-        ]
-      },
-      {
-        "id": "5",
-        "name": "Click & Grow",
-        "price": 40,
-        "description": "This is a product description.",
-        "images": [
-          "/images/click-grow-1.png"
-        ]
-      },
-      {
-        "id": "6",
-        "name": "Click & Grow",
-        "price": 40,
-        "description": "This is a product description.",
-        "images": [
-          "/images/click-grow-1.png"
-        ]
-      },
-      {
-        "id": "7",
-        "name": "Click & Grow",
-        "price": 40,
-        "description": "This is a product description.",
-        "images": [
-          "/images/click-grow-1.png"
-        ]
-      },
-      {
-        "id": "8",
-        "name": "Click & Grow",
-        "price": 40,
-        "description": "This is a product description.",
-        "images": [
-          "/images/click-grow-1.png"
-        ]
-      },
-      {
-        "id": "9",
-        "name": "Click & Grow",
-        "price": 40,
-        "description": "This is a product description.",
-        "images": [
-          "/images/click-grow-1.png"
-        ]
-      },
-      {
-        "id": "10",
-        "name": "Click & Grow",
-        "price": 40,
-        "description": "This is a product description.",
-        "images": [
-          "/images/click-grow-1.png"
-        ]
-      },
-      {
-        "id": "11",
-        "name": "Click & Grow",
-        "price": 40,
-        "description": "This is a product description.",
-        "images": [
-          "/images/click-grow-1.png"
-        ]
-      },
-      {
-        "id": "12",
-        "name": "Click & Grow",
-        "price": 40,
-        "description": "This is a product description.",
-        "images": [
-          "/images/click-grow-1.png"
         ]
       }
     ]
