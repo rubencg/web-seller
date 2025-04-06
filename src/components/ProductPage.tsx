@@ -43,7 +43,6 @@ const ProductPage = ({product}: {product: Product}) => {
           <h1 className="product-name">{product.name}</h1>
           <div className="product-price">${product.price}</div>
           <p className="product-description">{product.description}</p>
-          <button className="add-to-cart-button">Add to cart</button>
         </div>
       </div>
     </div>
