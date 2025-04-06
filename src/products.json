@@ -11,11 +11,11 @@
         "assets": [
           {
             "type": "image",
-            "url": "/images/couch-0.png"
+            "url": "/images/couch-1.png"
           },
           {
             "type": "image",
-            "url": "/images/couch-1.png"
+            "url": "/images/couch-0.png"
           },
           {
             "type": "image",
@@ -24,10 +24,56 @@
           {
             "type": "image",
             "url": "/images/couch-3.png"
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "name": "IKEA Plant Stabd: SATSUMAS",
+        "price": 30,
+        "originalPrice": 60,
+        "originalProductUrl": "https://www.ikea.com/ca/en/p/satsumas-plant-stand-bamboo-white-90258156/",
+        "description": "Plant stand, bamboo/white, 70 cm (27 ½ \")\n It has a few stains on the cover as seen in the pictures",
+        "dateBought": "2023-12-01",
+        "assets": [
+          {
+            "type": "image",
+            "url": "/images/plant-stand-0.png"
           },
           {
-            "type": "video",
-            "url": "/videos/chair-1.mp4"
+            "type": "image",
+            "url": "/images/plant-stand-1.png"
+          },
+          {
+            "type": "image",
+            "url": "/images/plant-stand-2.png"
+          },
+          {
+            "type": "image",
+            "url": "/images/plant-stand-3.png"
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "name": "Amazon beige curtains",
+        "price": 15,
+        "originalPrice": 32,
+        "originalProductUrl": "https://www.amazon.ca/dp/B08D39W33T?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1&th=1",
+        "description": "MIULEE 2 Panels 84 Inch Natural Light Beige Linen Semi Sheer Window Curtains Elegant Solid Drapes Grommet Top Window Voile Panels Linen Textured Panels for Bedroom Living Room (52\" W X 84\" L)",
+        "dateBought": "2023-06-25",
+        "assets": [
+          {
+            "type": "image",
+            "url": "/images/curtains-beige-2.png"
+          },
+          {
+            "type": "image",
+            "url": "/images/curtains-beige-0.png"
+          },
+          {
+            "type": "image",
+            "url": "/images/curtains-beige-1.png"
           }
         ]
       }
