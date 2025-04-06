@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import {Product} from '../types';
 import './ProductList.css';
+import { formatDate } from '../utils';
 
 interface ProductListProps {
   products: Product[];
@@ -21,7 +22,7 @@ const ProductList = ({ products }: ProductListProps) => {
             <div className="product-card-info">
               <h2 className="product-card-name">{product.name}</h2>
               <p className="product-card-price">${product.price}</p>
-              <p className="product-card-price">Bought on: {product.dateBought}</p>
+              <p className="product-card-price">Bought on: {formatDate(product.dateBought)}</p>
             </div>
           </Link>
         ))}

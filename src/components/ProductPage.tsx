@@ -6,6 +6,7 @@ import {Product, Asset} from '../types';
 import { Pagination, Navigation } from 'swiper/modules';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
+import { formatDate } from '../utils';
 
 const ProductPage = ({product}: {product: Product}) => {
   const [expandedAsset, setExpandedAsset] = useState<string | null>(null);
@@ -86,7 +87,7 @@ const ProductPage = ({product}: {product: Product}) => {
           </div>
           <div className="product-metadata">
             <p>
-              <strong>Date Bought:</strong> {product.dateBought}
+              <strong>Date Bought:</strong> {formatDate(product.dateBought)}
             </p>
             {product.originalProductUrl && (
               <p>
