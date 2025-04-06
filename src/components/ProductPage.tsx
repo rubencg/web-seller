@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './ProductPage.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -9,8 +9,15 @@ import 'swiper/css/pagination';
 
 
 const ProductPage = ({product}: {product: Product}) => {
+  const [expandedImage, setExpandedImage] = useState<string | null>(null);
+
   return (
     <div className="product-page">
+      {expandedImage && (
+        <div className="image-overlay" onClick={() => setExpandedImage(null)}>
+          <img src={expandedImage} alt="Expanded view" />
+        </div>
+      )}
       <div className="product-container">
         <div className="product-image-section">
           <Swiper pagination={{
@@ -25,6 +32,7 @@ const ProductPage = ({product}: {product: Product}) => {
                   src={img} 
                   alt={`${product.name} ${index + 1}`} 
                   className="product-image"
+                  onClick={() => setExpandedImage(img)}
                 />
               </SwiperSlide>
             ))}

@@ -96,4 +96,34 @@
     height: 100%;
     object-fit: cover;
   }
+
+.image-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  cursor: pointer;
+}
+
+.image-overlay img {
+  max-width: 90%;
+  max-height: 90vh;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.product-image {
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.product-image:hover {
+  opacity: 0.9;
+}
   
