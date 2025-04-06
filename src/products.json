@@ -76,6 +76,60 @@
             "url": "/images/curtains-beige-1.png"
           }
         ]
+      },
+      {
+        "id": "4",
+        "name": "IKEA BIRTNA: Blackout curtains pair",
+        "price": 30,
+        "originalPrice": 89,
+        "originalProductUrl": "https://www.ikea.com/ca/en/p/sanela-curtains-1-pair-light-beige-with-heading-tape-40589880",
+        "description": "These were rebranded to SANELA, a more recent model. But is basically the same thing.",
+        "dateBought": "2023-03-04",
+        "assets": [
+          {
+            "type": "image",
+            "url": "/images/curtains-birtna-3.png"
+          },
+          {
+            "type": "image",
+            "url": "/images/curtains-birtna-0.png"
+          },
+          {
+            "type": "image",
+            "url": "/images/curtains-birtna-1.png"
+          },
+          {
+            "type": "image",
+            "url": "/images/curtains-birtna-2.png"
+          }
+        ]
+      },
+      {
+        "id": "5",
+        "name": "IKEA High cabinet with two doors: HAUGA",
+        "price": 100,
+        "originalPrice": 249,
+        "originalProductUrl": "https://www.ikea.com/ca/en/p/hauga-high-cabinet-with-2-doors-white-20415046",
+        "description": "High cabinet with 2 doors, white, 70x199 cm (27 1/2x78 3/8 \")",
+        "dateBought": "2023-02-23",
+        "assets": [
+          {
+            "type": "image",
+            "url": "/images/hauga-0.png"
+          },
+          {
+            "type": "image",
+            "url": "/images/hauga-1.png"
+          },
+          {
+            "type": "image",
+            "url": "/images/hauga-2.png"
+          },
+          {
+            "type": "image",
+            "url": "/images/hauga-3.png"
+          }
+        ]
       }
     ]
   }
