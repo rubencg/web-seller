@@ -2,14 +2,13 @@ import React, { useState } from 'react';
 import './ProductPage.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
-import Product from '../types';
+import {Product, Asset} from '../types';
 import { Pagination, Navigation } from 'swiper/modules';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
-
 const ProductPage = ({product}: {product: Product}) => {
-  const [expandedImage, setExpandedImage] = useState<string | null>(null);
+  const [expandedAsset, setExpandedAsset] = useState<string | null>(null);
 
   // Function to split description into paragraphs
   const renderDescription = (description: string) => {
@@ -20,29 +19,53 @@ const ProductPage = ({product}: {product: Product}) => {
     ));
   };
 
+  const renderAsset = (asset: Asset, index: number) => {
+    if (asset.type === 'video') {
+      return (
+        <video 
+          src={asset.url}
+          controls
+          className="product-asset"
+          onClick={() => setExpandedAsset(asset.url)}
+        />
+      );
+    }
+    return (
+      <img 
+        src={asset.url}
+        alt={`${product.name} ${index + 1}`}
+        className="product-image"
+        onClick={() => setExpandedAsset(asset.url)}
+      />
+    );
+  };
+
   return (
     <div className="product-page">
-      {expandedImage && (
-        <div className="image-overlay" onClick={() => setExpandedImage(null)}>
-          <img src={expandedImage} alt="Expanded view" />
+      {expandedAsset && (
+        <div className="asset-overlay" onClick={() => setExpandedAsset(null)}>
+          {expandedAsset.endsWith('.mp4') ? (
+            <video src={expandedAsset} controls autoPlay />
+          ) : (
+            <img src={expandedAsset} alt="Expanded view" />
+          )}
         </div>
       )}
       <div className="product-container">
         <div className="product-image-section">
-          <Swiper pagination={{
-                type: 'fraction',
-              }}
-              className="mySwiper"
-              modules={[Pagination, Navigation]}
-              navigation={true} spaceBetween={10} slidesPerView={1}>
-            {product.images.map((img, index) => (
+          <Swiper
+            pagination={{
+              type: 'fraction',
+            }}
+            className="mySwiper"
+            modules={[Pagination, Navigation]}
+            navigation={true}
+            spaceBetween={10}
+            slidesPerView={1}
+          >
+            {product.assets.map((asset, index) => (
               <SwiperSlide key={index}>
-                <img 
-                  src={img} 
-                  alt={`${product.name} ${index + 1}`} 
-                  className="product-image"
-                  onClick={() => setExpandedImage(img)}
-                />
+                {renderAsset(asset, index)}
               </SwiperSlide>
             ))}
           </Swiper>

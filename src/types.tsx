@@ -1,9 +1,14 @@
+type Asset = {
+  type: 'image' | 'video';
+  url: string;
+};
+
 type Product = {
   id: string;
-  images: string[]; // instead of just `image`
   name: string;
   price: number;
   description: string;
+  assets: Asset[];
 };
 
-export default Product;
+export type { Product, Asset };

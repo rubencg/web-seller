@@ -13,6 +13,28 @@
           "/images/couch-1.png",
           "/images/couch-2.png",
           "/images/couch-3.png"
+        ],
+        "assets": [
+          {
+            "type": "image",
+            "url": "/images/couch-0.png"
+          },
+          {
+            "type": "image",
+            "url": "/images/couch-1.png"
+          },
+          {
+            "type": "image",
+            "url": "/images/couch-2.png"
+          },
+          {
+            "type": "image",
+            "url": "/images/couch-3.png"
+          },
+          {
+            "type": "video",
+            "url": "/videos/chair-1.mp4"
+          }
         ]
       },
       {
