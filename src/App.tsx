@@ -1,16 +1,18 @@
-import React from 'react'
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import ProductList from './components/ProductList';
 import ProductPage from './components/ProductPage';
 import productsData from './products.json';
-import Product from './types';
 
-const App = () => {
-    const product = productsData.products[0] as Product; // Get the first product
-
-    return (
-        <div className="App">
-        <ProductPage product={product} />
-        </div>
-    );
+function App() {
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<ProductList products={productsData.products} />} />
+        <Route path="/product/:id" element={<ProductPage product={productsData.products[0]} />} />
+      </Routes>
+    </Router>
+  );
 }
 
-export default App
+export default App;

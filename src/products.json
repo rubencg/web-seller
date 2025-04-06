@@ -1,12 +1,22 @@
 {
     "products": [
         {
+            "id": "1",
             "name": "Couch",
-            "price": 100,
+            "price": 200,
             "description": "This is a product description.",
             "images": [
                 "/images/couch.png",
                 "/images/couch-2.png"
+            ]
+        },
+        {
+            "id": "2",
+            "name": "Click & Grow",
+            "price": 40,
+            "description": "This is a product description.",
+            "images": [
+                "/images/click-grow-1.png"
             ]
         }
     ]
