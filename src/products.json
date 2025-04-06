@@ -1,0 +1,166 @@
+{
+    "products": [
+      {
+        "id": "1",
+        "name": "IKEA Couch: LYCKSELE LÖVÅS",
+        "price": 299,
+        "originalPrice": 429,
+        "originalProductUrl": "https://www.ikea.com/ca/en/p/lycksele-loevas-sofabed-knisa-light-gray-s69387037",
+        "description": "Sofabed, Knisa light gray\n It has a few stains on the cover as seen in the pictures",
+        "dateBought": "2024-07-21",
+        "assets": [
+          {
+            "type": "image",
+            "url": "/images/couch-1.png"
+          },
+          {
+            "type": "image",
+            "url": "/images/couch-0.png"
+          },
+          {
+            "type": "image",
+            "url": "/images/couch-2.png"
+          },
+          {
+            "type": "image",
+            "url": "/images/couch-3.png"
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "name": "IKEA Plant Stand: SATSUMAS",
+        "price": 30,
+        "originalPrice": 60,
+        "originalProductUrl": "https://www.ikea.com/ca/en/p/satsumas-plant-stand-bamboo-white-90258156/",
+        "description": "Plant stand, bamboo/white, 70 cm (27 ½ \")\n It has a few stains on the cover as seen in the pictures",
+        "dateBought": "2023-12-01",
+        "assets": [
+          {
+            "type": "image",
+            "url": "/images/plant-stand-0.png"
+          },
+          {
+            "type": "image",
+            "url": "/images/plant-stand-1.png"
+          },
+          {
+            "type": "image",
+            "url": "/images/plant-stand-2.png"
+          },
+          {
+            "type": "image",
+            "url": "/images/plant-stand-3.png"
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "name": "Amazon beige curtains",
+        "price": 15,
+        "originalPrice": 32,
+        "originalProductUrl": "https://www.amazon.ca/dp/B08D39W33T?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1&th=1",
+        "description": "MIULEE 2 Panels 84 Inch Natural Light Beige Linen Semi Sheer Window Curtains Elegant Solid Drapes Grommet Top Window Voile Panels Linen Textured Panels for Bedroom Living Room (52\" W X 84\" L)",
+        "dateBought": "2023-06-25",
+        "assets": [
+          {
+            "type": "image",
+            "url": "/images/curtains-beige-2.png"
+          },
+          {
+            "type": "image",
+            "url": "/images/curtains-beige-0.png"
+          },
+          {
+            "type": "image",
+            "url": "/images/curtains-beige-1.png"
+          }
+        ]
+      },
+      {
+        "id": "4",
+        "name": "IKEA BIRTNA: Blackout curtains pair",
+        "price": 30,
+        "originalPrice": 89,
+        "originalProductUrl": "https://www.ikea.com/ca/en/p/sanela-curtains-1-pair-light-beige-with-heading-tape-40589880",
+        "description": "These were rebranded to SANELA, a more recent model. But is basically the same thing. It includes all the wall ceilling brackets (BETYDLIG) and finials (RAFFIG) shown in the picture for easy hanging.",
+        "dateBought": "2023-03-04",
+        "assets": [
+          {
+            "type": "image",
+            "url": "/images/curtains-birtna-3.png"
+          },
+          {
+            "type": "image",
+            "url": "/images/curtains-birtna-0.png"
+          },
+          {
+            "type": "image",
+            "url": "/images/curtains-birtna-1.png"
+          },
+          {
+            "type": "image",
+            "url": "/images/curtains-birtna-2.png"
+          }
+        ]
+      },
+      {
+        "id": "5",
+        "name": "IKEA High cabinet with two doors: HAUGA",
+        "price": 100,
+        "originalPrice": 249,
+        "originalProductUrl": "https://www.ikea.com/ca/en/p/hauga-high-cabinet-with-2-doors-white-20415046",
+        "description": "High cabinet with 2 doors, white, 70x199 cm (27 1/2x78 3/8 \")",
+        "dateBought": "2023-02-23",
+        "assets": [
+          {
+            "type": "image",
+            "url": "/images/hauga-0.png"
+          },
+          {
+            "type": "image",
+            "url": "/images/hauga-1.png"
+          },
+          {
+            "type": "image",
+            "url": "/images/hauga-2.png"
+          },
+          {
+            "type": "image",
+            "url": "/images/hauga-3.png"
+          },
+          {
+            "type": "video",
+            "url": "/videos/hauga-0.mp4"
+          }
+        ]
+      },
+      {
+        "id": "6",
+        "name": "IKEA Standing desk: TROTTEN",
+        "price": 150,
+        "originalPrice": 249,
+        "originalProductUrl": "https://www.ikea.com/ca/en/p/trotten-desk-sit-stand-white-s99429578/",
+        "description": "Desk sit/stand, white, 120x70 cm (47 1/4x27 1/2 \")\nAvailable from May 23rd",
+        "dateBought": "2023-06-25",
+        "assets": [
+          {
+            "type": "image",
+            "url": "/images/trotten-1.png"
+          },
+          {
+            "type": "image",
+            "url": "/images/trotten-0.png"
+          },{
+            "type": "video",
+            "url": "/videos/trotten-1.mp4"
+          },
+          {
+            "type": "video",
+            "url": "/videos/trotten-0.mp4"
+          }
+        ]
+      }
+    ]
+  }
+  

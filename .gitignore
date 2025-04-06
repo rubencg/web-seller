@@ -23,6 +23,14 @@ chrome-user-data
 .vscode
 *.swp
 *.swo
+dist/
+
+# Firebase config generated locally
+.firebaserc
+.firebase/
+firebase.json
+firebase-debug.log
+firebase-debug.*.log
 
 packages/react-devtools-core/dist
 packages/react-devtools-extensions/chrome/build
