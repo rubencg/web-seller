@@ -12,8 +12,8 @@ const ProductList = ({ products }: ProductListProps) => {
     <div className="product-list-container">
       <h1 className="product-list-title">Our Products</h1>
       <div className="product-grid">
-        {products.map((product, index) => (
-          <Link to={`/product/${index}`} key={index} className="product-card">
+        {products.map((product) => (
+          <Link to={`/product/${product.id}`} key={product.id} className="product-card">
             <div className="product-card-image">
               <img src={product.images[0]} alt={product.name} />
             </div>
