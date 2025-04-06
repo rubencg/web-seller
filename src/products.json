@@ -83,7 +83,7 @@
         "price": 30,
         "originalPrice": 89,
         "originalProductUrl": "https://www.ikea.com/ca/en/p/sanela-curtains-1-pair-light-beige-with-heading-tape-40589880",
-        "description": "These were rebranded to SANELA, a more recent model. But is basically the same thing.",
+        "description": "These were rebranded to SANELA, a more recent model. But is basically the same thing. It includes all the wall ceilling brackets (BETYDLIG) and finials (RAFFIG) shown in the picture for easy hanging.",
         "dateBought": "2023-03-04",
         "assets": [
           {
@@ -128,6 +128,36 @@
           {
             "type": "image",
             "url": "/images/hauga-3.png"
+          },
+          {
+            "type": "video",
+            "url": "/videos/hauga-0.mp4"
+          }
+        ]
+      },
+      {
+        "id": "6",
+        "name": "IKEA Standing desk: TROTTEN",
+        "price": 100,
+        "originalPrice": 249,
+        "originalProductUrl": "https://www.ikea.com/ca/en/p/trotten-desk-sit-stand-white-s99429578/",
+        "description": "Desk sit/stand, white, 120x70 cm (47 1/4x27 1/2 \")",
+        "dateBought": "2023-06-25",
+        "assets": [
+          {
+            "type": "image",
+            "url": "/images/trotten-1.png"
+          },
+          {
+            "type": "image",
+            "url": "/images/trotten-0.png"
+          },{
+            "type": "video",
+            "url": "/videos/trotten-1.mp4"
+          },
+          {
+            "type": "video",
+            "url": "/videos/trotten-0.mp4"
           }
         ]
       }

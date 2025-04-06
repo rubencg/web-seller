@@ -21,7 +21,12 @@ const ProductList = ({ products }: ProductListProps) => {
             </div>
             <div className="product-card-info">
               <h2 className="product-card-name">{product.name}</h2>
-              <p className="product-card-price">${product.price}</p>
+              <p className="product-card-price">${product.price}
+                <div className="original-price">
+                  <span className="strikethrough">${product.originalPrice}</span>
+                </div>
+              </p>
+              
               <p className="product-card-price">Bought on: {formatDate(product.dateBought)}</p>
             </div>
           </Link>
