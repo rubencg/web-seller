@@ -4,7 +4,7 @@
             "name": "Couch",
             "price": 100,
             "description": "This is a product description.",
-            "image": "images/couch.jpg"
+            "image": "/images/couch.png"
         }
     ]
 }
