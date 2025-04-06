@@ -73,9 +73,33 @@ const ProductPage = ({product}: {product: Product}) => {
 
         <div className="product-details-section">
           <h1 className="product-name">{product.name}</h1>
-          <div className="product-price">${product.price}</div>
+          <div className="price-container">
+            <div className="product-price">${product.price}</div>
+            {product.originalPrice && (
+              <div className="original-price">
+                Original price: <span className="strikethrough">${product.originalPrice}</span>
+              </div>
+            )}
+          </div>
           <div className="description-container">
             {renderDescription(product.description)}
+          </div>
+          <div className="product-metadata">
+            <p>
+              <strong>Date Bought:</strong> {product.dateBought}
+            </p>
+            {product.originalProductUrl && (
+              <p>
+                <a 
+                  href={product.originalProductUrl} 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="original-product-link"
+                >
+                  View Original Product
+                </a>
+              </p>
+            )}
           </div>
         </div>
       </div>

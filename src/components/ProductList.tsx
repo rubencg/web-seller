@@ -21,6 +21,7 @@ const ProductList = ({ products }: ProductListProps) => {
             <div className="product-card-info">
               <h2 className="product-card-name">{product.name}</h2>
               <p className="product-card-price">${product.price}</p>
+              <p className="product-card-price">Bought on: {product.dateBought}</p>
             </div>
           </Link>
         ))}
