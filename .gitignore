@@ -25,6 +25,13 @@ chrome-user-data
 *.swo
 dist/
 
+# Firebase config generated locally
+.firebaserc
+.firebase/
+firebase.json
+firebase-debug.log
+firebase-debug.*.log
+
 packages/react-devtools-core/dist
 packages/react-devtools-extensions/chrome/build
 packages/react-devtools-extensions/chrome/*.crx
