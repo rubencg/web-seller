@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import {Product} from '../types';
-import './ProductList.css';
+import { Product } from '../types';
 import { formatDate } from '../utils';
 
 interface ProductListProps {
@@ -9,27 +8,38 @@ interface ProductListProps {
 }
 
 const ProductList = ({ products }: ProductListProps) => {
-  
   return (
-    <div className="product-list-container">
-      <h1 className="product-list-title">We are selling!</h1>
-      <div className="product-grid">
+    <div className="container py-4">
+      <h1 className="mb-4 text-center">We are selling!</h1>
+      <div className="row g-4">
         {products.map((product) => (
-          <Link to={`/product/${product.id}`} key={product.id} className="product-card">
-            <div className="product-card-image">
-              <img src={product.assets.filter(c => c.type == "image")[0].url} alt={product.name} />
-            </div>
-            <div className="product-card-info">
-              <h2 className="product-card-name">{product.name}</h2>
-              <p className="product-card-price">${product.price}
-                <div className="original-price">
-                  <span className="strikethrough">${product.originalPrice}</span>
+          <div className="col-sm-6 col-md-4 col-lg-3" key={product.id}>
+            <Link to={`/product/${product.id}`} className="text-decoration-none text-dark">
+              <div className="card h-100 shadow-sm">
+                <div className="ratio ratio-4x3">
+                  <img
+                    src={product.assets.find((a) => a.type === 'image')?.url}
+                    alt={product.name}
+                    className="card-img-top object-fit-cover"
+                  />
                 </div>
-              </p>
-              
-              <p className="product-card-price">Bought on: {formatDate(product.dateBought)}</p>
-            </div>
-          </Link>
+                <div className="card-body">
+                  <h5 className="card-title">{product.name}</h5>
+                  <p className="card-text mb-1">
+                    <span className="fw-bold">${product.price}</span>
+                    {product.originalPrice && product.originalPrice > product.price && (
+                      <span className="text-muted ms-2 text-decoration-line-through">
+                        ${product.originalPrice}
+                      </span>
+                    )}
+                  </p>
+                  <p className="card-text">
+                    <small className="text-muted">Bought on: {formatDate(product.dateBought)}</small>
+                  </p>
+                </div>
+              </div>
+            </Link>
+          </div>
         ))}
       </div>
     </div>
