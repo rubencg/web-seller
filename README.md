@@ -2,8 +2,7 @@
 
 I wanted to create a simple site to show the products I was selling when moving out, but didn't want to use facebook marketplace yet cause I wanted to show them to friends first. (Also to practice a bit react)
 
-So I crated this site to showcase them.
-
+So I created this site to showcase them.
 ### Running the site
 
 ```
