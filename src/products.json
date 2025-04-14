@@ -235,6 +235,25 @@
             "url": "/images/humidifier-0.png"
           }
         ]
+      },
+      {
+        "id": "10",
+        "name": "Vitamix Blender Explorian E310 48oz",
+        "price": 250,
+        "originalPrice": 500,
+        "originalProductUrl": "https://www.amazon.ca/Vitamix-E310-Explorian-Professional-Grade-Container/dp/B0758JHZM3/ref=sr_1_1?crid=ZD16MMXU7VPU&dib=eyJ2IjoiMSJ9.x7Svapcx_ee0se2rKKEXaMJcM5BPoa2opZ2n38lcugYOvU0LH3bnXmv1f231kPZZOcWwBEPPDnQf177EIa5TkPPj_lxxWEWv3hB53LBU8nrgrlBbQqW6ZIPbk0TGdqKii3a8zMtfPwv4yvcLe0JKT8q_WzfRvIUbP_7aNyrlVnONY3aBNNiaK8u6xypEopJwgZ-_EOxA_NIxR1lxUfsm0jYU5zGRjHVif17nQduRzC4.r5gSnf9a0S7NNriwuUTYE32l-RXUMKOQIx1WEDP9Pkk&dib_tag=se&keywords=Vitamix%2BE310%2BExplorian%2BBlender%2C%2BProfessional-Grade%2C%2B48%2Boz.%2BContainer%2C%2BBlack&qid=1744673883&s=kitchen&sprefix=vitamix%2Be310%2Bexplorian%2Bblender%2C%2Bprofessional-grade%2C%2B48%2Boz%2Bcontainer%2C%2Bblack%2Ckitchen%2C296&sr=1-1&th=1",
+        "description": "Includes Vitamix Mini-Tamper",
+        "dateBought": "2023-03-23",
+        "assets": [
+          {
+            "type": "image",
+            "url": "/images/blender-0.png"
+          },
+          {
+            "type": "image",
+            "url": "/images/blender-1.png"
+          }
+        ]
       }
     ]
   }
