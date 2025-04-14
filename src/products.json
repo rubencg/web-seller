@@ -281,6 +281,29 @@
             "url": "/images/printer-3.png"
           }
         ]
+      },
+      {
+        "id": "12",
+        "name": "IKEA Desk: TROTTEN",
+        "price": 100,
+        "originalPrice": 170,
+        "originalProductUrl": "https://www.ikea.com/ca/en/p/trotten-desk-beige-white-s69434270/",
+        "description": "Desk, beige/white, 160x80 cm (63x31 1/2 \")",
+        "dateBought": "2022-11-02",
+        "assets": [
+          {
+            "type": "image",
+            "url": "/images/troten-0.png"
+          },
+          {
+            "type": "image",
+            "url": "/images/troten-1.png"
+          },
+          {
+            "type": "image",
+            "url": "/images/troten-2.png"
+          }
+        ]
       }
     ]
   }
