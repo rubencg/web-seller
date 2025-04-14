@@ -160,6 +160,32 @@
             "url": "/videos/trotten-0.mp4"
           }
         ]
+      },
+      {
+        "id": "7",
+        "name": "IKEA Office Chair: HATTEFJÄLL",
+        "price": 150,
+        "originalPrice": 300,
+        "originalProductUrl": "https://www.ikea.com/ca/en/p/hattefjaell-office-chair-with-armrests-gunnared-medium-gray-white-00538963",
+        "description": "Office chair with armrests, Gunnared medium gray/white",
+        "dateBought": "2022-11-02",
+        "assets": [
+          {
+            "type": "image",
+            "url": "/images/chair-1.png"
+          },
+          {
+            "type": "image",
+            "url": "/images/chair-2.png"
+          },{
+            "type": "image",
+            "url": "/images/chair-3.png"
+          },
+          {
+            "type": "image",
+            "url": "/images/chair-4.png"
+          }
+        ]
       }
     ]
   }
