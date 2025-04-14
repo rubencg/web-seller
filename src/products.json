@@ -186,6 +186,40 @@
             "url": "/images/chair-4.png"
           }
         ]
+      },
+      {
+        "id": "8",
+        "name": "TV LG 49\"",
+        "price": 100,
+        "originalPrice": 400,
+        "originalProductUrl": "https://www.lg.com/us/tvs/lg-49UF7600-4k-uhd-led-tv",
+        "description": "Discountinued 2015 LG tv model 49UF7600-UJ",
+        "dateBought": "2015-06-02",
+        "assets": [
+          {
+            "type": "image",
+            "url": "/images/tv-1.png"
+          },
+          {
+            "type": "image",
+            "url": "/images/tv-0.png"
+          },
+          {
+            "type": "image",
+            "url": "/images/tv-2.png"
+          },{
+            "type": "image",
+            "url": "/images/tv-3.png"
+          },
+          {
+            "type": "image",
+            "url": "/images/tv-4.png"
+          },
+          {
+            "type": "image",
+            "url": "/images/tv-5.png"
+          }
+        ]
       }
     ]
   }
