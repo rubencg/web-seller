@@ -254,6 +254,33 @@
             "url": "/images/blender-1.png"
           }
         ]
+      },
+      {
+        "id": "11",
+        "name": "Printer EPSON ET-2850",
+        "price": 150,
+        "originalPrice": 300,
+        "originalProductUrl": "https://www.amazon.ca/dp/B096N85ZHW?ref_=ppx_hzod_title_dt_b_fed_asin_title_0_0&th=1",
+        "description": "Epson Ecotank Et-2850 Wireless Color All-in-one Cartridge-free Supertank Printer with Scan, Copy and Auto 2-sided Printing – the Perfect Family Printer - White.\nDoesn't include refills, but is ready to use with 50% colors and 35% black",
+        "dateBought": "2023-02-24",
+        "assets": [
+          {
+            "type": "image",
+            "url": "/images/printer-0.png"
+          },
+          {
+            "type": "image",
+            "url": "/images/printer-1.png"
+          },
+          {
+            "type": "image",
+            "url": "/images/printer-2.png"
+          },
+          {
+            "type": "image",
+            "url": "/images/printer-3.png"
+          }
+        ]
       }
     ]
   }
