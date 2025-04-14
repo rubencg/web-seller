@@ -220,6 +220,21 @@
             "url": "/images/tv-5.png"
           }
         ]
+      },
+      {
+        "id": "9",
+        "name": "Levoit 6L Smart Humidifier",
+        "price": 50,
+        "originalPrice": 100,
+        "originalProductUrl": "https://www.amazon.ca/gp/product/B08KZX8X6R/ref=ppx_od_dt_b_asin_title_s02?ie=UTF8&th=1",
+        "description": "smart and voice control, schedule and timer, Work with Alexa, Google Assistant, Vesync app, Top fill design, auto mode",
+        "dateBought": "2022-11-05",
+        "assets": [
+          {
+            "type": "image",
+            "url": "/images/humidifier-0.png"
+          }
+        ]
       }
     ]
   }
