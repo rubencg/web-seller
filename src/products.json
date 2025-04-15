@@ -361,6 +361,48 @@
             "url": "/images/eket-2.png"
           }
         ]
+      },
+      {
+        "id": "15",
+        "name": "Pet dryer",
+        "price": 30,
+        "originalPrice": 110,
+        "originalProductUrl": "",
+        "description": "",
+        "dateBought": "2020-08-02",
+        "assets": [
+          {
+            "type": "image",
+            "url": "/images/dryier-0.png"
+          },
+          {
+            "type": "image",
+            "url": "/images/dryier-1.png"
+          },
+          {
+            "type": "image",
+            "url": "/images/dryier-2.png"
+          },{
+            "type": "image",
+            "url": "/images/dryier-3.png"
+          },
+          {
+            "type": "image",
+            "url": "/images/dryier-4.png"
+          },
+          {
+            "type": "image",
+            "url": "/images/dryier-5.png"
+          },
+          {
+            "type": "image",
+            "url": "/images/dryier-6.png"
+          },
+          {
+            "type": "image",
+            "url": "/images/dryier-7.png"
+          }
+        ]
       }
     ]
   }
