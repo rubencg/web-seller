@@ -304,6 +304,40 @@
             "url": "/images/troten-2.png"
           }
         ]
+      },
+      {
+        "id": "13",
+        "name": "Gofluo Robin Reflective Bag",
+        "price": 70,
+        "originalPrice": 180,
+        "originalProductUrl": "https://velolifestyle.com/products/gofluo-robin-reflective-bag",
+        "description": "Gofluo Robin Reflective Bag\nwaterproof\nlaptop storage (up to 17 inch)",
+        "dateBought": "2023-06-02",
+        "assets": [
+          {
+            "type": "image",
+            "url": "/images/blue-backpack-0.png"
+          },
+          {
+            "type": "image",
+            "url": "/images/blue-backpack-1.png"
+          },
+          {
+            "type": "image",
+            "url": "/images/blue-backpack-2.png"
+          },{
+            "type": "image",
+            "url": "/images/blue-backpack-3.png"
+          },
+          {
+            "type": "image",
+            "url": "/images/blue-backpack-4.png"
+          },
+          {
+            "type": "image",
+            "url": "/images/blue-backpack-5.png"
+          }
+        ]
       }
     ]
   }
