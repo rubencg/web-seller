@@ -338,6 +338,29 @@
             "url": "/images/blue-backpack-5.png"
           }
         ]
+      },
+      {
+        "id": "14",
+        "name": "IKEA Cabinet White stained oak effect: EKET",
+        "price": 10,
+        "originalPrice": 25,
+        "originalProductUrl": "https://www.ikea.com/ca/en/p/eket-cabinet-white-stained-oak-effect-90428842",
+        "description": "Cabinet, white stained oak effect, 35x25x35 cm (13 3/4x9 7/8x13 3/4 \")\nIt includes suspension rail: https://www.ikea.com/ca/en/p/eket-suspension-rail-00340047",
+        "dateBought": "2023-03-05",
+        "assets": [
+          {
+            "type": "image",
+            "url": "/images/eket-0.png"
+          },
+          {
+            "type": "image",
+            "url": "/images/eket-1.png"
+          },
+          {
+            "type": "image",
+            "url": "/images/eket-2.png"
+          }
+        ]
       }
     ]
   }
