@@ -473,6 +473,37 @@
             "url": "/images/backpack-6.png"
           }
         ]
+      },
+      {
+        "id": "18",
+        "name": "Cake stand - like new",
+        "price": 20,
+        "originalPrice": 50,
+        "originalProductUrl": "",
+        "description": "",
+        "dateBought": "2020-04-23",
+        "assets": [
+          {
+            "type": "image",
+            "url": "/images/cake-stand-0.png"
+          },
+          {
+            "type": "image",
+            "url": "/images/cake-stand-1.png"
+          },
+          {
+            "type": "image",
+            "url": "/images/cake-stand-2.png"
+          },
+          {
+            "type": "image",
+            "url": "/images/cake-stand-3.png"
+          },
+          {
+            "type": "image",
+            "url": "/images/cake-stand-4.png"
+          }
+        ]
       }
     ]
   }
