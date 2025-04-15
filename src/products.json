@@ -434,6 +434,45 @@
             "url": "/images/carryon-4.png"
           }
         ]
+      },
+      {
+        "id": "17",
+        "name": "Decathlon Bike Elops Backpack",
+        "price": 30,
+        "originalPrice": 100,
+        "originalProductUrl": "https://www.decathlon.ca/en/p/8808911/27-l-double-cycling-pannier-rack-backpack?utm_source=google&utm_medium=cpc&utm_campaign=ca_t-perf_ct-shopp_n-brand_ts-pro_f-cv_o-reve_l-en_&gad_source=1&gclid=CjwKCAjw5PK_BhBBEiwAL7GTPYoeQrRfKEvAvSoAGSOrzEkeLwr1e1mmlnOJ3eG_bCR78JxmX37i5RoCe7UQAvD_BwE",
+        "description": "Dark grey green - Double Cycling Pannier Rack Backpack 27 L\nIncludes rain cover",
+        "dateBought": "2023-04-02",
+        "assets": [
+          {
+            "type": "image",
+            "url": "/images/backpack-0.png"
+          },
+          {
+            "type": "image",
+            "url": "/images/backpack-1.png"
+          },
+          {
+            "type": "image",
+            "url": "/images/backpack-2.png"
+          },
+          {
+            "type": "image",
+            "url": "/images/backpack-3.png"
+          },
+          {
+            "type": "image",
+            "url": "/images/backpack-4.png"
+          },
+          {
+            "type": "image",
+            "url": "/images/backpack-5.png"
+          },
+          {
+            "type": "image",
+            "url": "/images/backpack-6.png"
+          }
+        ]
       }
     ]
   }
