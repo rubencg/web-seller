@@ -504,6 +504,66 @@
             "url": "/images/cake-stand-4.png"
           }
         ]
+      },
+      {
+        "id": "19",
+        "name": "ELOPS 520 City Bike - Light Blue",
+        "price": 200,
+        "originalPrice": 500,
+        "originalProductUrl": "https://99spokes.com/en-CA/bikes/elops/2024/fully-equipped-6-speed-low-frame-city-bike",
+        "description": "Includes\n - Airtag Holder $12 CAD (https://www.amazon.ca/dp/B0B2L1DRLM?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_6)\n - Water Bottle Holder $17 CAD (https://www.amazon.ca/gp/product/B0BV63BWPK/ref=ppx_od_dt_b_asin_title_s01?ie=UTF8&psc=1)\n - Bike phone Mount $30 CAD (https://www.amazon.ca/gp/product/B085DMV7XD/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&psc=1)",
+        "dateBought": "2023-04-02",
+        "assets": [
+          {
+            "type": "image",
+            "url": "/images/bike-lb-0.png"
+          }
+        ]
+      },
+      {
+        "id": "21",
+        "name": "ELOPS 520 City Bike - Steel Blue",
+        "price": 200,
+        "originalPrice": 500,
+        "originalProductUrl": "https://www.decathlon.ca/en/p/8378612/elops-520-low-frame-city-bike?utm_source=google&utm_medium=cpc&utm_campaign=ca_t-perf_ct-pmax_n-cycling_ts-pro_f-cv_o-reve_l-en_&gad_source=1&gclid=CjwKCAjw5PK_BhBBEiwAL7GTPY6TkdXVkYRDe5ScSdmA5EwO9I-_uL2cAthuCRwYwPM7HAsZGl1dORoCsxkQAvD_BwE",
+        "description": "Includes\n - Airtag Holder $12 CAD (https://www.amazon.ca/dp/B0B2L1DRLM?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_6)\n - Water Bottle Holder $17 CAD (https://www.amazon.ca/gp/product/B0BV63BWPK/ref=ppx_od_dt_b_asin_title_s01?ie=UTF8&psc=1)\n - Bike phone Mount $30 CAD (https://www.amazon.ca/gp/product/B085DMV7XD/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&psc=1)",
+        "dateBought": "2023-04-02",
+        "assets": [
+          {
+            "type": "image",
+            "url": "/images/bike-b-0.png"
+          }
+        ]
+      },
+      {
+        "id": "22",
+       "name": "Decathlon Bike Chain Lock-500L",
+        "price": 20,
+        "originalPrice": 40,
+        "originalProductUrl": "https://www.decathlon.ca/en/p/8735827/500-bike-chain-lock#/?queryID=3aea27ab56c447430711c015f234e4d1",
+        "description": "Bike Chain Lock - 500 L",
+        "dateBought": "2023-08-02",
+        "assets": [
+          {
+            "type": "image",
+            "url": "/images/lock-0.png"
+          }
+        ]
+      },
+      {
+        "id": "23",
+        "name": "Decathlon Bike U-Lock",
+        "price": 20,
+        "originalPrice": 50,
+        "originalProductUrl": "https://www.decathlon.ca/en/p/8739929/bike-u-lock-900-m#/?queryID=275b171c01825f8c0b75df55912b3d6a",
+        "description": "Bike U-Lock",
+        "dateBought": "2023-08-02",
+        "assets": [
+          {
+            "type": "image",
+            "url": "/images/u-lock-0.png"
+          }
+        ]
       }
     ]
   }
